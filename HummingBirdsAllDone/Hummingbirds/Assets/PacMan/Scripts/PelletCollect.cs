@@ -5,6 +5,7 @@ using UnityEngine;
 public class PelletCollect : MonoBehaviour
 {
     public int collected = 0;
+    public int gameover = 0;
     [SerializeField]
 
 
@@ -19,6 +20,10 @@ public class PelletCollect : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             collected++;
+        }
+        if (other.gameObject.CompareTag("ghost"))
+        {
+            gameover++;
         }
      
     }

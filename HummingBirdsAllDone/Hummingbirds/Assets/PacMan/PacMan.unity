@@ -398,6 +398,21 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 059eeb6071265a24f8fc5fe767565f1d, type: 3}
 --- !u!1 &404024420 stripped
@@ -632,6 +647,21 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 059eeb6071265a24f8fc5fe767565f1d, type: 3}
 --- !u!1 &940039240
@@ -838,6 +868,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 059eeb6071265a24f8fc5fe767565f1d, type: 3}
@@ -1478,6 +1523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collected: 0
+  gameover: 0
 --- !u!1 &1267173645 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1790889706887237637, guid: 059eeb6071265a24f8fc5fe767565f1d,
@@ -1802,6 +1848,21 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9035714847075075079, guid: 059eeb6071265a24f8fc5fe767565f1d,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 059eeb6071265a24f8fc5fe767565f1d, type: 3}
 --- !u!23 &4730728117637931569
@@ -1868,13 +1929,28 @@ GameObject:
   - component: {fileID: 7044009763232993709}
   - component: {fileID: 9049485068656686638}
   - component: {fileID: 4730728117637931569}
+  - component: {fileID: 7482337818495408350}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!136 &7482337818495408350
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7482337818495408349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.03
+  m_Direction: 2
+  m_Center: {x: -0.0000000018626451, y: -0.0000000018626448, z: -0.0016115878}
 --- !u!33 &9049485068656686638
 MeshFilter:
   m_ObjectHideFlags: 0

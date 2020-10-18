@@ -8,6 +8,7 @@ TagManager:
   - nectar
   - boundary
   - Pick Up
+  - ghost
   layers:
   - Default
   - TransparentFX
